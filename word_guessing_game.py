@@ -116,7 +116,6 @@ def game():
     print(f"Random word: '{word}' from category: {category}")
     word_arr = list(word)
     underscores_arr = ["_"] * len(word_arr)
-    print(word_arr)
     print(hint)
     print("📐 LEVEL: ", level,            "\t\t\t\t📌 Score: ", score, "\t\t\t\t🎯 Attempts: ", attempts)
     while attempts > 0 and "_" in underscores_arr:
